@@ -3,7 +3,7 @@ import random
 
 ## print final matrix
 def matrix(list):
-    for i in range(8):
+    for i in range(len(list)):
         for j in list:
             if j == i + 1:
                 print('1', end='  ')
